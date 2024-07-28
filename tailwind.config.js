@@ -18,6 +18,9 @@ export default {
         },
       },
     },
+    // animation: {
+    //   "spin-slow": "spin 8.5s linear infinite",
+    // },
   },
   plugins: [],
 };

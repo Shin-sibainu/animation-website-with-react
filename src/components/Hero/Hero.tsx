@@ -32,22 +32,22 @@ const Hero = () => {
               <img
                 src={ReactIcon}
                 alt=""
-                className="relative z-40 w-30 h-28 sm:-top-28 sm:-left-20 cursor-pointer hover:scale-110 transition-all duration-150"
+                className="relative z-40 w-[10.5rem] h-[9.5rem] sm:-top-28 sm:-left-20 cursor-pointer hover-scale-spin"
               />
               <img
                 src={NextjsIcon}
                 alt=""
-                className="relative z-40 w-35 h-28 -top-12 left-10 cursor-pointer hover:scale-110 transition-all duration-150"
+                className="relative z-40 w-[6.5rem] h-[5.5rem] -top-8 left-10 cursor-pointer hover:scale-110 transition-all duration-150 hover-scale-spin"
               />
               <img
                 src={TailwindCSSIcon}
                 alt=""
-                className="relative z-40 w-30 h-28 -left-10 top-4 cursor-pointer hover:scale-110 transition-all duration-150"
+                className="relative z-40 w-[8.5rem] h-[7.5rem] -left-10 top-12 cursor-pointer hover:scale-110 transition-all duration-150  hover-scale-spin"
               />
 
               {/* big text section */}
               <div className="absolute -top-20 left-[200px] z-[1]">
-                <h2 className="text-[140px] scale-150 font-bold text-darkGray/40 leading-none">
+                <h2 className="hidden lg:block lg:text-[140px] lg:scale-150 font-bold text-darkGray/40 leading-none md:scale-100">
                   Coding.
                 </h2>
               </div>
